@@ -19,7 +19,7 @@ vector<int>dutch_national_flag(vector<int>arr){
            int temp=arr[mid];
            arr[mid]=arr[high];
            arr[high]=temp;
-           mid++;
+           mid;
            high--;
        }
        if(arr[mid]==1){
