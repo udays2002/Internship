@@ -1,6 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
+//dnf sort
 vector<int>dutch_national_flag(vector<int>arr){
     int n=arr.size();
     int low=0;
